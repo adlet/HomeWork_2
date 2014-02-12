@@ -1,0 +1,248 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body{
+	font-family: sans-serif;
+	margin-left: 12%;
+}
+header{
+	height: 185px;
+}
+.logo{
+	padding-right: 41px;
+	float: left;
+	
+}
+
+.logo_text{
+	float: left;
+	color: #f2ac04;
+	margin-left: 100px;
+}
+.logo_text2{
+	float: left;
+	margin-left: 50px;
+	color: #929292;
+}
+
+.header{
+	border-top: 8px solid #f2ac04;
+	width: 1006px;
+	padding-left: 36px;
+	padding-top: 53px;
+	padding-right: 36px;
+}
+.menu{
+	margin-top: 100px;
+	border-top: 1px solid #ababab;
+	border-bottom:  1px solid #ababab;
+}
+.menu > li {
+	display: inline;
+	margin-left: 80px;
+}
+.menu > li > a {
+	color: #6b6b6b;
+	text-decoration: none;
+	font-size: 18px;
+}
+.imagine{
+	width: 1006px;
+	height: 403px;
+	margin-top: 26px;
+	padding-left: 36px;
+	padding-top: 20px;
+	padding-bottom: 44px;
+	border-bottom: 1px solid #ababab;
+}
+
+
+.box{
+	width: 47.3%;
+	height: 100%;
+	float: left;
+	margin-right: 25px;
+	border: 1px solid #ababab;
+	padding: 1px; 
+}
+.box:last-child{
+	border:0px;
+	padding-bottom: 10px;  
+
+}
+#icon1{
+	float: left;
+	padding-bottom: 5px;
+
+}
+#icon2{
+	float: right;
+	padding-bottom: 5px;
+	
+}
+#small{
+	font-size: 12pt;
+	font-family: Tahoma;
+	color: #6b6b6b;
+}
+#right-text{
+	font-size: 13pt;
+	color: #3c3c3c;
+	font-family: Helvetica;
+	border-top:1px solid black;
+	padding-top: 25px;
+}
+#left-text{
+	font-size: 18pt;
+	color: #3c3c3c;
+	font-family: Tahoma;
+	text-align: center;
+}
+
+.news{
+	width: 1006px;
+	height: 440px;
+	padding-top: 55px; 
+	padding-right:45px;
+	padding-left: 45px; 
+	padding-bottom:55px;
+	border-bottom: 1px solid #ababab;
+}
+.latest{
+	width: 30%;
+	height: 100%;
+	float: left;
+	margin-right: 10px;
+	border-right: 1px solid #ababab;
+	
+}
+.who{
+	width: 35%;
+	height: 100%;
+	float: left;
+	margin-right: 10px;
+	border-right: 1px solid #ababab;
+	padding-left: 15px;
+	font-family: Myriad Pro;
+	font-size: 16pt;
+	padding-right: 25pt;
+	color:  #3c3c3c;
+}
+.contact{
+	width: 30%;
+	height: 100%;
+	float: left;
+	padding-left: 15px;
+	
+}
+.head3{
+	font-family: Tahoma;
+	font-size: 18pt;
+	color: #565656;
+	padding-bottom: 35px;
+}
+.part{
+	width: 100%;
+	height: 80px;
+	border-bottom: 1px dotted #ababab; 
+	padding-right: 5px;
+	
+}
+.time{
+	width: 20%;
+	height: 100%;
+	border-right: 1px solid #ababab;
+	text-align: center;
+	float: left;
+
+}
+.yellow{
+	color: yellow;
+	font-size: 18pt;
+}
+h5{
+	color: #666666;
+}
+.time > p{
+	color: #939393;
+}
+
+
+.numbers{
+	width: 100%;
+	height: 40px;
+	color: #757575;
+	border-bottom: 1px dotted #ababab;
+}
+.numbers:last-child{
+	border-bottom: 0px;
+}
+.icon{
+	float: left;
+}
+.info{
+	float: left;
+	margin-left: 40px;
+	font-size: 16px;
+	padding-top: 10px;
+}
+.clients{
+	width: 1006px;
+	height: 100px;
+}
+.clients > p {
+	font-size: 16px;
+	padding-left: 36px;
+	color:  #3c3c3c;
+}
+.footer{
+	border-top: 1px solid #ababab;
+	width: 1006px;
+	height: 150px;
+	
+}
+.foodlogo{
+	padding-left: 40%;
+}
+
+.menufoot{
+	padding-left: 15%;
+}
+.menufoot > li {
+	display: inline;
+	margin-left: 10px;
+}
+.menufoot > li > a {
+	color: #6b6b6b;
+	text-decoration: none;
+	font-size: 18px;
+	border-right: 1px solid #ababab;
+	padding-right: 5px;
+}
+.footer > p {
+	padding-left: 40%;
+}
+
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
